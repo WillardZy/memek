@@ -11,9 +11,9 @@ os.system("clear")
 UserList = []
 PassList = []
 
-print("Weclome To XPAN TOOLS")
+print("Weclome To ALPAN TOOLS")
 
-ans = input("Do you have an account with please enter y/n:")
+ans = input("Apakah Anda memiliki akun dengan silakan masukkan y/n:")
 
 if ans == 'n':
     User = input("Please type your username: ")
@@ -33,13 +33,13 @@ if ans == 'n':
     
 os.system("clear")
 print("""
-██╗░░██╗███████╗░█████╗░███╗░░██╗
-╚██╗██╔╝██║░░██║██╔══██╗████╗░██║
-░╚███╔╝░███████║███████║██╔██╗██║
-░██╔██╗░██╔════╝██║      ██║██║╚████║
-██╔╝╚██╗██║░░         ██║░░██║██║░╚███║
-╚═╝░░╚═╝╚═╝               ╚═╝░░╚═╝╚═╝░░╚══╝""")
-print("Xyber Comunity")
+██╗░░██╗███████╗
+╚██╗██╔╝██║░░██║
+░╚███╔╝░███████║
+░██╔██╗░██╔════╝
+██╔╝╚██╗██║░░    
+╚═╝░░╚═╝╚═╝""")
+print("Xy Comunity")
 
 ip = str(input("> HOST/IP:"))
 port = int(input("> PORT:"))
